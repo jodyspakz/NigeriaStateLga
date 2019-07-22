@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" type="text/css" href="creative.min.css" />
+    <script src="index.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+            <label for="country">Nationality:</label>
+            <select name="country" id="country" class="form-control" onchange="countryChangeHandler()">
+                <option value="nigeria">Nigeria</option>
+                <option value="ghana" selected>Ghana</option>
+                <option value="cameroun">Cameroun</option>
+                <option value="niger">Niger</option>
+            </select>
+        
+            <label for="country">State:</label>
+            <select class="form-control" name="" id="state" onchange="stateChangeHandler()">
+        
+            </select>
+        
+            <label for="country">LGA:</label>
+            <select class="form-control" name="" id="lgas"></select>
+    </div>
+    
+</body>
+</html>
